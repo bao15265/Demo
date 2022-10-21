@@ -23,5 +23,20 @@ public class Iterator2 {
         Iterator<String> hereStr = strings.iterator();
         String here1 = hereStr.next();
 
+        Queue<String> queue = new LinkedList<String>();
+        queue.add("one");
+        queue.add("two");
+        queue.add("three");
+        queue.add("four");
+        Iterator hereQueue = queue.iterator();
+//        for (Iterator i = queue.iterator(); i.hasNext();) {
+//            System.out.print(i.next() + " ");
+//        }
+        // if queue has change after use iterator(), it will throw 1 ConcurrentModificationException
+        queue.add("five");
+        while (hereQueue.hasNext()){
+            System.out.println(hereQueue.next());
+        }
+        System.out.println(queue);
     }
 }

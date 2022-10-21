@@ -8,6 +8,7 @@ public class IteratorDemo {
         List<Integer> linkedList = new LinkedList<Integer>();
         Set<Integer> hashSet = new HashSet<Integer>();
         Set<Integer> treeSet = new TreeSet<Integer>();
+        Stack<Integer> stack = new Stack<Integer>();
 
         for (int i = 0; i < 10; i++) {
             arrayList.add((int) (Math.random() * 10));
@@ -21,19 +22,19 @@ public class IteratorDemo {
         for (int i = 0; i < 10; i++) {
             treeSet.add((int) (Math.random() * 10));
         }
-
+        for (int i = 0; i < 10; i++) {
+            stack.push((int) (Math.random() * 10));
+        }
         Iterator hereArray = arrayList.iterator();
         Iterator hereLinked = linkedList.iterator();
         Iterator hereHash = hashSet.iterator();
         Iterator hereTree = treeSet.iterator();
+        Iterator hereStack = stack.iterator();
 
         System.out.println("Array List");
         while (hereArray.hasNext()) {
             System.out.print(hereArray.next() + " ");
         }
-//        for (Iterator i = arrayList.iterator(); i.hasNext();) {
-//            System.out.print(i.next() + " ");
-//        }
         System.out.println("\nLinked List");
         while (hereLinked.hasNext()) {
             System.out.print(hereLinked.next() + " ");
@@ -45,6 +46,10 @@ public class IteratorDemo {
         System.out.println("\nTree Set");
         while (hereTree.hasNext()) {
             System.out.print(hereTree.next() + " ");
+        }
+        System.out.println("\nStack");
+        while (hereStack.hasNext()){
+            System.out.print(hereStack.next() + " ");
         }
     }
 }
