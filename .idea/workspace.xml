@@ -2,14 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37f4762a-a3b0-4882-9c40-34e47130f299" name="Changes" comment="change demo">
+      <change afterPath="$PROJECT_DIR$/src/demo5/AgeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo5/CheckedExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo5/CustomExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo5/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo5/ExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo5/ThrowDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo5/Try2Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo5/TryCatchFinallyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo5/UncheckedExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo5/Worker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo4/Iterator2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo4/Iterator2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo4/ListIteratorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo4/ListIteratorDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,13 +52,13 @@
       <recent name="C:\Users\admin\Documents\Java\Demo\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Iterator2">
-    <configuration name="Iterator2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo4.Iterator2" />
+  <component name="RunManager" selected="Application.Try2Demo">
+    <configuration name="CustomExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo5.CustomExceptionDemo" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo4.*" />
+          <option name="PATTERN" value="demo5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -51,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo4.IteratorDemo" />
+    <configuration name="ThrowDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo5.ThrowDemo" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo4.*" />
+          <option name="PATTERN" value="demo5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListIteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo4.ListIteratorDemo" />
+    <configuration name="Try2Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo5.Try2Demo" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo4.*" />
+          <option name="PATTERN" value="demo5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +92,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo2.abc.Main" />
+    <configuration name="TryCatchFinallyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo5.TryCatchFinallyDemo" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo2.abc.*" />
+          <option name="PATTERN" value="demo5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UncheckedExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo5.UncheckedExceptionDemo" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,10 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Iterator2" />
-        <item itemvalue="Application.IteratorDemo" />
-        <item itemvalue="Application.ListIteratorDemo" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Try2Demo" />
+        <item itemvalue="Application.CustomExceptionDemo" />
+        <item itemvalue="Application.ThrowDemo" />
+        <item itemvalue="Application.TryCatchFinallyDemo" />
+        <item itemvalue="Application.UncheckedExceptionDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666352778633</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change demo">
+      <created>1666359823020</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666359823020</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
