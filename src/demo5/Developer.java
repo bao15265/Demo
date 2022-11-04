@@ -5,12 +5,12 @@ import java.io.IOException;
 
 public class Developer extends Worker{
     @Override
-    public void work() throws ArithmeticException {
-        super.work();
+    public void work() throws FileNotFoundException{
+
     }
 
     @Override
-    public void work(String location) throws NullPointerException {
-        super.work(location);
+    public void work(String location) throws IOException {
+
     }
 }

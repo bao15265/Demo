@@ -3,24 +3,25 @@ package demo5;
 import java.util.Scanner;
 
 public class CustomExceptionDemo {
-    public static void checkAge2(int age) throws AgeException {
-        try {
-            if (age < 18) {
-                throw new AgeException("You must be 18+ to sign up");
-            } else {
-                System.out.println("You are now signed up!");
-            }
-        }catch (Exception e) {
-            System.out.println(e.getMessage());
+    public static void checkAge2(int age) {
+        if (age < 18) {
+            throw new AgeException("jdakdjalkdada");
+        } else {
+            System.out.println("You are now signed up!");
         }
 
     }
 
-    public static void main(String args[]) throws AgeException {
+    public static void main(String args[]) {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter your age: ");
         int age = scan.nextInt();
-        checkAge2(age);
+        try {
+            checkAge2(age);
+        } catch (RuntimeException e) {
+            System.out.println("??????");
+        }
+
     }
 
 }

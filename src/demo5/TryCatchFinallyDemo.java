@@ -14,15 +14,13 @@ public class TryCatchFinallyDemo {
             int y = scanner.nextInt();
             int z = x / y;
             System.out.println("result: " + z);
-        } catch (ArithmeticException e) {
+        } catch (ArithmeticException | InputMismatchException e) {
             System.out.println("You can't divide by zero!");
-        } catch (InputMismatchException e) {
-            System.out.println("Please enter a number!");
-//        } catch (Exception e) {
-//            System.out.println("Something went wrong");
+        } catch (Exception e) {
+            System.out.println("Something went wrong");
         } finally {
             System.out.println("This will always print");
-            //scanner.close();
+            scanner.close();
         }
 
     }
