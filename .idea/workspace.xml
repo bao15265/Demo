@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37f4762a-a3b0-4882-9c40-34e47130f299" name="Changes" comment="add demo5">
-      <change afterPath="$PROJECT_DIR$/src/demo6/VarargsDemo.java" afterDir="false" />
+    <list default="true" id="37f4762a-a3b0-4882-9c40-34e47130f299" name="Changes" comment="add demo6">
+      <change afterPath="$PROJECT_DIR$/src/demo1/Random.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo7/ComparisonStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo7/CreateStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo7/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo7/OperationStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo7/ParallelStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo7/ReduceStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo7/Streams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo5/AgeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo5/AgeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo5/CheckedExceptionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo5/CheckedExceptionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo5/CustomExceptionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo5/CustomExceptionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo5/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo5/Developer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo5/TryCatchFinallyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo5/TryCatchFinallyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo5/UncheckedExceptionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo5/UncheckedExceptionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo5/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo5/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo6/VarargsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo6/VarargsDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,28 +39,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\admin\Documents\Java\Demo\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VarargsDemo">
-    <configuration name="CustomExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo5.CustomExceptionDemo" />
+  <component name="RunManager" selected="Application.ParallelStream">
+    <configuration name="ComparisonStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo7.ComparisonStream" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo5.*" />
+          <option name="PATTERN" value="demo7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo5.ThrowDemo" />
+    <configuration name="OperationStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo7.OperationStream" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo5.*" />
+          <option name="PATTERN" value="demo7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UncheckedExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo5.UncheckedExceptionDemo" />
+    <configuration name="ParallelStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo7.ParallelStream" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo5.*" />
+          <option name="PATTERN" value="demo7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VarArgsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo6.VarArgsDemo" />
+    <configuration name="ReduceStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo7.ReduceStream" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo6.*" />
+          <option name="PATTERN" value="demo7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VarargsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo6.VarargsDemo" />
+    <configuration name="Streams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo7.Streams" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo6.*" />
+          <option name="PATTERN" value="demo7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VarargsDemo" />
-        <item itemvalue="Application.VarArgsDemo" />
-        <item itemvalue="Application.CustomExceptionDemo" />
-        <item itemvalue="Application.UncheckedExceptionDemo" />
-        <item itemvalue="Application.ThrowDemo" />
+        <item itemvalue="Application.ParallelStream" />
+        <item itemvalue="Application.InfiniteStreams" />
+        <item itemvalue="Application.ReduceStream" />
+        <item itemvalue="Application.ComparisonStream" />
+        <item itemvalue="Application.OperationStream" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +151,17 @@
       <workItem from="1667498937229" duration="1046000" />
       <workItem from="1667530854527" duration="1385000" />
       <workItem from="1667535065746" duration="52000" />
+      <workItem from="1667535225012" duration="28000" />
+      <workItem from="1667548695619" duration="4000" />
+      <workItem from="1667567567198" duration="7000" />
+      <workItem from="1668168792983" duration="139000" />
+      <workItem from="1668168975669" duration="64000" />
+      <workItem from="1668182260794" duration="450000" />
+      <workItem from="1668189984976" duration="9000" />
+      <workItem from="1668246981262" duration="286000" />
+      <workItem from="1668249815655" duration="12000" />
+      <workItem from="1668305701367" duration="9412000" />
+      <workItem from="1668349072772" duration="13369000" />
     </task>
     <task id="LOCAL-00001" summary="add all to demo">
       <created>1665937667982</created>
@@ -179,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666863236313</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add demo6">
+      <created>1667535244173</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667535244173</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +219,7 @@
     <MESSAGE value="add all to demo" />
     <MESSAGE value="change demo" />
     <MESSAGE value="add demo5" />
-    <option name="LAST_COMMIT_MESSAGE" value="add demo5" />
+    <MESSAGE value="add demo6" />
+    <option name="LAST_COMMIT_MESSAGE" value="add demo6" />
   </component>
 </project>

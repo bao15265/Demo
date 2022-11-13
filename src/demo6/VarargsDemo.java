@@ -35,17 +35,17 @@ public class VarargsDemo {
         return  result;
     }
 
-//    public int sum(String option, int... oddNumbers, int... evenNumbers) {   // error
+//    public int sum1(String option, int... chan, int... le) {   // error
 //        int result = 0;
 //
 //        switch (option) {
-//            case "ODD":
-//                for (int i = 0; i < oddNumbers.length; i++)
-//                    result += oddNumbers[i];
+//            case "chan":
+//                for (int i = 0; i < chan.length; i++)
+//                    result += chan[i];
 //                break;
-//            case "EVEN":
-//                for (int i = 0; i < evenNumbers.length; i++)
-//                    result += evenNumbers[i];
+//            case "le":
+//                for (int i = 0; i < le.length; i++)
+//                    result += le[i];
 //                break;
 //            default:
 //                throw new RuntimeException("Option is not present");
